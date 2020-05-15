@@ -1,0 +1,29 @@
+{
+  "name": "bp-cli",
+  "version": "1.0.0",
+  "description": "必派科技的前端脚手架",
+  "main": "index.js",
+  "bin": {
+    "bp-cli": "bin/bp-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "inquirer": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qinhank/bp-cli.git"
+  },
+  "author": "hankqin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qinhank/bp-cli/issues"
+  },
+  "homepage": "https://github.com/Qinhank/bp-cli#readme"
+}

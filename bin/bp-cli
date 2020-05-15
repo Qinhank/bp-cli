@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+const { resolve } = require('path')
+const program = require('commander')
+const { version } = require(resolve(__dirname, '../package.json'))
+
+process.env.NODE_PATH = resolve(__dirname, '../node_modules/')
+
+program
+  .version(version)
+
+program
+  .usage('<command>')
+
+// 定义初始化（暂时只写这个）
+program.command('init')
+       .description('新建项目')
+       .alias('i')
+       .action(() => {
+         require('../command/init')()
+       })
+
+program.parse(process.argv)
+
+if(!program.args.length){
+  program.help()
+}

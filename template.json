@@ -1,0 +1,12 @@
+{
+  "tpl": {
+    "app": {
+      "url": "http://apal.tpddns.cn:800/template/template-app.git",
+      "branch": "master"
+    },
+    "pc": {
+      "url": "http://apal.tpddns.cn:800/template/template-pc.git",
+      "branch": "master"
+    }
+  }
+}

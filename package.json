@@ -1,7 +1,7 @@
 {
   "name": "bpal-cli",
   "version": "1.0.1",
-  "description": "必派科技的前端脚手架",
+  "description": "前端脚手架",
   "main": "index.js",
   "bin": {
     "bpal-cli": "bin/bp-cli"

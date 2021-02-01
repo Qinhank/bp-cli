@@ -1,11 +1,11 @@
 {
   "tpl": {
     "app": {
-      "url": "http://apal.tpddns.cn:800/template/template-app.git",
+      "url": "https://github.com/Qinhank/vue-template-app.git",
       "branch": "master"
     },
     "pc": {
-      "url": "http://apal.tpddns.cn:800/template/template-pc.git",
+      "url": "https://github.com/Qinhank/vue-template-pc.git",
       "branch": "master"
     }
   }
